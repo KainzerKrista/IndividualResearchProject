@@ -1,0 +1,88 @@
+DialogueNode 
+.name-field
+{
+    width: 100px;
+    height: 50px;
+}
+
+.dialogue-field
+{
+    height: 50px;
+    max-width: 350px;
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
+    padding-top: 0px;
+    overflow: visible;
+}
+
+.sprite-field-open
+{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.sprite-field-closed
+{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.sprite-information
+{
+    flex-direction: row;
+}
+
+.left-container
+{
+    max-width: 200px;
+    white-space: normal;
+}
+
+.blackboard
+{
+    height: 200px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.blackboard-seperator
+{
+    height: 1;
+    background-color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.blackboard-content
+{
+    flex-shrink: 0;
+}
+
+.blackboard-variable
+{
+    max-width: 400px;
+}
+
+.bb-con
+{
+    background-color: #5c5c5c;
+    max-width: 400px;
+    text-align: center;
+}
+
+.bb-text
+{
+    padding-left: 10px;
+}
+
+.bb-container
+{
+    height: 1;
+    background-color: grey;
+    margin-bottom: 10px;
+}
